@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/inbotiq_assgment/role-based-auth-app/frontend/app/page.tsx"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <main className=\"flex min-h-screen items-center justify-center bg-gray-100\">\r\n      <h1 className=\"text-3xl font-bold text-blue-600\">\r\n        Role-Based Auth App\r\n      </h1>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;YAAG,WAAU;sBAAmC;;;;;;;;;;;AAKvD","debugId":null}}]
+}
