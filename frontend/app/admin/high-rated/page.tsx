@@ -2,9 +2,6 @@
 
 import AdminRoute from "../../components/AdminRoute";
 
-import GlobalLayout from "@/app/components/GlobalLayout";
-
-
 export default function HighRatedPage() {
   const products = [
     { name: "Wireless Earbuds", rating: 4.8 },
@@ -14,7 +11,7 @@ export default function HighRatedPage() {
 
   return (
     <AdminRoute>
-      <GlobalLayout>
+      <div className="p-6">
         <h1 className="text-3xl font-bold mb-6">⭐ High Rated Products</h1>
 
         <div className="space-y-4">
@@ -28,7 +25,7 @@ export default function HighRatedPage() {
             </div>
           ))}
         </div>
-      </GlobalLayout>
+      </div>
     </AdminRoute>
   );
 }
