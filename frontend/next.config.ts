@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  turbo: false, // disable turbopack and use webpack
+  reactStrictMode: true, // Optional but recommended
 };
 
 export default nextConfig;
