@@ -1,7 +1,8 @@
 "use client";
 
 import AdminRoute from "../../components/AdminRoute";
-import GlobalLayout from "../../components/GlobalLayout";
+import GlobalLayout from "@/components/GlobalLayout";
+
 
 export default function OrdersPage() {
   const orders = [
